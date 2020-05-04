@@ -1,0 +1,176 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/* Header CSS */
+
+#main-header{
+	background-image: linear-gradient(to right,coral 0%,yellow 100%),url('../img/showcase.jpg');
+  	background-blend-mode:lighten;
+	color: #000;
+	width: 100%;
+}
+#main-header img{
+	float: left;
+	margin-right: 10px;
+	margin-top: 2.1px;
+	border-radius: 60px;
+	width: 90px;
+	height: 90px;
+}
+#main-header h1{
+	display: inline;
+	text-align: center;
+	line-height: 2.8em;
+}
+#main-header p{
+	float:right;
+	display: inline;
+	line-height: 4.0em;
+}
+
+/* Header CSS */
+
+/* Navbar CSS */
+#navbar{
+	background-color: #333;
+	color: #fff;
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+}
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 50px; 
+}
+
+/* Navbar CSS */
+
+/* Showcase CSS */
+#showcase{
+	background-image: linear-gradient(to right,coral 0%,yellow 100%),url('../img/showcase.jpg');
+  	background-blend-mode:lighten;
+	/*background-image: url('../img/showcase.jpg');*/
+	background-blend-mode: lighten;
+	background-position: center;
+	min-height: 100px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+#showcase h1{
+	color: #000;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+/* Showcase CSS */
+
+/*Main and Sidebar CSS*/
+/*.row {
+  display: flex; equal height of the #main and #sidebar }*/
+#main{
+	float: left;
+	background: #fff;
+	width: 60%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float: right;
+	width: 40%;
+	background: #000;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#sidebar li{
+	list-style: disc;
+}
+#sidebar a{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/*Main and Sidebar CSS*/
+
+/* Footer CSS */
+
+#main-footer{
+	background-image: linear-gradient(to right,coral 0%,yellow 100%),url('../img/showcase.jpg');
+  	background-blend-mode:lighten;
+	color: #000;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+/* Footer CSS */
+
+/* Main and Sidebar Responsive CSS */
+
+@media(max-width: 750px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+	#main-header img{
+		float: none;
+		margin-left: 40%;
+		border-radius: 60px;
+		width: 100px;
+		height: 100px;
+	}
+	#main-header h1{
+		display: block;
+		text-align: center;
+		line-height: 1.0em;
+	}
+	#main-header p{
+		float: none;
+		text-align: center;
+		display: block;
+		line-height: 1.6em;
+	}
+	#navbar{
+		background-color: #333;
+		color: #fff;
+	}
+	#navbar ul{
+		padding: 0;
+		list-style: none;
+	}
+	#navbar li{
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	#navbar a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+		padding: 0;
+		text-align: center;
+	}
+
+}
